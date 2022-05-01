@@ -117,7 +117,6 @@ a {
 }
 
 .features-list .item-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;  
 }
@@ -151,7 +150,6 @@ a {
 }
 
 .team-list .item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -170,8 +168,6 @@ footer {
 .address-fact {
     color: #FFFFFF;
 
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -180,8 +176,53 @@ footer {
 .address-tel {
     color: rgba(255, 255, 255, 0.6);
 
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
+
+
+/* ПОРТФОЛИО */
+
+/* Фильтр */
+
+.button {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--primary-background);
+    background-color: var(--accent-color);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.62;
+} 
+
+/* Примеры работ */
+
+.examples-item .item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+.examples-item .item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
