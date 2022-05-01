@@ -1,0 +1,187 @@
+/* цвет основного текста #757575 */
+/* цвет заголовков #212121 */
+/* акцент #2196F3 */
+/* цвет фона #FFFFFF */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-background: #FFFFFF;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-background);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+   
+} 
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--title-text-color);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Логотип */
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo-blue {
+    color: var(--accent-color);
+}
+
+.logo-black {
+    color: #000000;
+}
+
+.logo-white {
+    color: #FFFFFF;
+}
+
+
+
+/* Навигация */
+.navigation,
+.cont {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.navigation {
+    color: var(--title-text-color);
+}
+
+.navigation:hover,
+.navigation:focus,
+.cont:hover,
+.cont:focus {
+    color: var(--accent-color);
+}
+
+/* Контакты */
+.cont {
+    color: var(--primary-text-color);
+}
+
+/* Герой */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* Особенности */
+
+.features-list .item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features-list .item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;  
+}
+
+/* Чем мы занимаемся */
+
+.services-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Наша команда */
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team-list .item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-list .item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+/* Футер */
+
+footer {
+    background-color: #2F303A;
+    
+}
+
+.address-fact {
+    color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.address-email,
+.address-tel {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
