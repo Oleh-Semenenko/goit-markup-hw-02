@@ -14,7 +14,7 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-background);
 
-    font-family: Roboto, sans-serif;
+    font-family: Roboto sans-serif;
     letter-spacing: 0.03em;
    
 } 
@@ -105,6 +105,7 @@ a {
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* Особенности */
@@ -184,6 +185,13 @@ footer {
     line-height: 1.71;
 }
 
+.address-email:hover,
+.address-email:focus,
+.address-tel:hover,
+.address-tel:focus {
+    color: var(--accent-color);
+}
+
 
 /* ПОРТФОЛИО */
 
@@ -225,7 +233,6 @@ footer {
 }
 
 .examples-item .item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
