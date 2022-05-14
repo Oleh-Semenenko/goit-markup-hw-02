@@ -1,20 +1,28 @@
 /* цвет основного текста #757575 */
 /* цвет заголовков #212121 */
 /* акцент #2196F3 */
-/* цвет фона #FFFFFF */
+/* цвет фона первичный #FFFFFF */
+/* цвет фона вторичный #F5F4FA */
+/* цвет фона героя и футера #2F303A*/
+/* цвет лого черный #000000 */
+
 
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-background: #FFFFFF;
+    --secondary-background: #F5F4FA;
+    --hero-background: #2F303A;
+    --logo-black: #000000;
 }
 
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-background);
 
-    font-family: Roboto sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
     letter-spacing: 0.03em;
    
 } 
@@ -34,7 +42,7 @@ a {
 /* Логотип */
 
 .logo {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -45,11 +53,11 @@ a {
 }
 
 .logo-black {
-    color: #000000;
+    color: var(--logo-black);
 }
 
 .logo-white {
-    color: #FFFFFF;
+    color: var(--primary-background);
 }
 
 
@@ -58,7 +66,6 @@ a {
 .navigation,
 .cont {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -74,6 +81,10 @@ a {
     color: var(--accent-color);
 }
 
+.navigation:active {
+    color: var(--accent-color);
+}
+
 /* Контакты */
 .cont {
     color: var(--primary-text-color);
@@ -82,11 +93,11 @@ a {
 /* Герой */
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--hero-background);
 }
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--primary-background);
     
     font-weight: 900;
     font-size: 44px;
@@ -97,7 +108,7 @@ a {
 }
 
 .hero-button {
-    color: #FFFFFF;
+    color: var(--primary-background);
     background-color: var(--accent-color);
 
     font-weight: 700;
@@ -112,13 +123,11 @@ a {
 
 .features-list .item-title {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 
 .features-list .item-text {
-    font-size: 14px;
     line-height: 1.71;  
 }
 
@@ -134,7 +143,7 @@ a {
 /* Наша команда */
 
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--secondary-background);
 }
 
 .team-title {
@@ -156,13 +165,13 @@ a {
 }
 
 .team-item {
-    background-color: #FFFFFF;
+    background-color: var(--primary-background);
 }
 
 /* Футер */
 
 footer {
-    background-color: #2F303A;
+    background-color: var(--hero-background);
     
 }
 
@@ -171,9 +180,8 @@ footer {
 }
 
 .address-fact {
-    color: #FFFFFF;
+    color: var(--primary-background);
 
-    font-size: 14px;
     line-height: 1.71;
 }
 
@@ -181,7 +189,6 @@ footer {
 .address-tel {
     color: rgba(255, 255, 255, 0.6);
 
-    font-size: 14px;
     line-height: 1.71;
 }
 
@@ -199,7 +206,7 @@ footer {
 
 .button {
     color: var(--title-text-color);
-    background-color: #F5F4FA;
+    background-color: var(--secondary-background);
 
     font-family: 'Roboto';
     font-style: normal;
@@ -214,14 +221,12 @@ footer {
 .button:focus {
     color: var(--primary-background);
     background-color: var(--accent-color);
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    line-height: 1.62;
 } 
+
+.button:active {
+    color: var(--primary-background);
+    background-color: var(--accent-color);
+}
 
 /* Примеры работ */
 
