@@ -81,7 +81,7 @@ a {
     color: var(--accent-color);
 }
 
-.navigation:active {
+.current {
     color: var(--accent-color);
 }
 
@@ -223,11 +223,6 @@ footer {
     background-color: var(--accent-color);
 } 
 
-.button:active {
-    color: var(--primary-background);
-    background-color: var(--accent-color);
-}
-
 /* Примеры работ */
 
 .examples-item .item-title {
@@ -241,4 +236,5 @@ footer {
     font-size: 16px;
     line-height: 1.88;
 }
+
 
